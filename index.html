@@ -50,7 +50,7 @@ h2{margin:0;font-family:Montserrat,Arial,sans-serif;font-weight:800;font-size:13
 .strip{display:flex;gap:10px;overflow-x:auto;scrollbar-width:none;scroll-snap-type:x mandatory;scroll-padding:0 16px;margin:0 -16px;padding:0 16px 2px}
 .strip::-webkit-scrollbar{display:none}
 .ev{flex:0 0 128px;scroll-snap-align:start;display:flex;flex-direction:column;gap:6px}
-.ev img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:14px;background:#000;border:1px solid rgba(244,236,223,.12)}
+.ev img{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:14px;background:#000;border:1px solid rgba(244,236,223,.12)}
 .ev .d{font-family:Montserrat,Arial,sans-serif;font-weight:800;font-size:11px;letter-spacing:1.2px;color:var(--redtext)}
 .ev .v{font-size:12px;line-height:1.3;color:var(--mute);margin-top:-4px}
 .list{display:flex;flex-direction:column;gap:12px}
@@ -75,6 +75,8 @@ details[open] .chev{transform:rotate(180deg)}
 .nx .t{font-weight:600;font-size:14.5px}.nx .w{font-size:12.5px;color:var(--mute)}
 .cta{display:flex;align-items:center;justify-content:center;min-height:52px;border-radius:14px;background:var(--red);color:#fff;font-family:Montserrat,Arial,sans-serif;font-weight:800;font-size:15px;letter-spacing:1px}
 .cta:hover{filter:brightness(1.1)}
+.fbbtn{display:flex;align-items:center;justify-content:center;gap:10px;min-height:52px;border-radius:14px;background:#166FE5;color:#fff;font-family:Montserrat,Arial,sans-serif;font-weight:800;font-size:15px;letter-spacing:1px}
+.fbbtn:hover{filter:brightness(1.1)}
 .links{display:flex;flex-direction:column;gap:8px}
 .lk{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:52px;padding:0 16px;border-radius:14px;background:var(--fill);border:1px solid var(--edge);font-weight:600;font-size:14.5px}
 .lk .r{display:flex;flex-direction:column;align-items:flex-end;text-align:right;gap:2px;padding:8px 0;font-size:12.5px;color:var(--mute);font-weight:500}
@@ -136,9 +138,9 @@ footer{text-align:center;padding-top:8px;font-family:Montserrat,Arial,sans-serif
 <section aria-label="What's on" style="display:flex;flex-direction:column;gap:10px">
 <div class="head"><h2>WHAT'S ON</h2><span class="hint">Swipe · tap for tickets</span></div>
 <div class="strip">
-<a class="ev" href="#" target="_blank" rel="noopener" data-ticket="Soul Food"><img src="assets/soulfood-thumb.jpg" alt="Soul Food" loading="lazy"><span class="d">SAT 28 NOV</span><span class="v">Abundance, Soi 11</span></a>
-<a class="ev" href="https://dub.sh/dcds1126" target="_blank" rel="noopener" data-ticket="Decades"><img src="assets/decades-thumb.jpg" alt="Decades" loading="lazy"><span class="d">SAT 28 NOV</span><span class="v">Aces, Soi 11</span></a>
-<a class="ev" href="#" target="_blank" rel="noopener" data-ticket="Old School and Chill"><img src="assets/osc-thumb.jpg" alt="Old School and Chill" loading="lazy"><span class="d">SAT 5 DEC</span><span class="v">Aces, Soi 11</span></a>
+<a class="ev" href="https://tickets.alpha11.co/events/alphaeleven/2526734" target="_blank" rel="noopener" data-ticket="Soul Food"><img src="assets/soulfood-poster-2811.jpg" alt="Soul Food" loading="lazy"><span class="d">SAT 28 NOV</span><span class="v">Abundance, Soi 11</span></a>
+<a class="ev" href="https://tickets.alpha11.co/events/alphaeleven/2507602" target="_blank" rel="noopener" data-ticket="Decades"><img src="assets/decades-poster-2811.jpg" alt="Decades" loading="lazy"><span class="d">SAT 28 NOV</span><span class="v">Aces, Soi 11</span></a>
+<a class="ev" href="https://tickets.alpha11.co/events/alphaeleven/2529188" target="_blank" rel="noopener" data-ticket="Old School and Chill"><img src="assets/osc-poster-0512.jpg" alt="Old School and Chill" loading="lazy"><span class="d">SAT 5 DEC</span><span class="v">Aces, Soi 11</span></a>
 </div>
 </section>
 
@@ -153,7 +155,8 @@ footer{text-align:center;padding-top:8px;font-family:Montserrat,Arial,sans-serif
 <img class="banner" src="assets/osc-banner.jpg" alt="Old School and Chill" loading="lazy">
 <div><h3 class="lbl">IN A NUTSHELL</h3><p class="about">Bangkok's home of old school. Nothing but 90s and 00s timeless R&amp;B and party starter hip hop. First Saturday of every month at Aces Nightclub - Sukhumvit Soi 11.</p></div>
 <div class="next"><div class="cal"><small>SAT</small><strong>5</strong><small>DEC</small></div><div class="nx"><span class="k">NEXT EVENT</span><span class="t">Old School &amp; Chill</span><span class="w">Aces, Soi 11 · 10pm</span></div></div>
-<a class="cta" href="#" target="_blank" rel="noopener" data-ticket="Old School and Chill">GET TICKETS</a>
+<a class="cta" href="https://tickets.alpha11.co/events/alphaeleven/2529188" target="_blank" rel="noopener" data-ticket="Old School and Chill">GET TICKETS</a>
+<a class="fbbtn" href="https://www.facebook.com/events/2396050701141153" target="_blank" rel="noopener" data-track="FB Event OSC"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h-2.5A4.5 4.5 0 0 0 8 7.5V10H5.5v3.5H8V21h3.5v-7.5H14l.5-3.5h-3V8a1 1 0 0 1 1-1H15z"/></svg>JOIN ON FACEBOOK</a>
 <div class="links">
 <a class="lk" href="https://oscbkk.com" target="_blank" rel="noopener"><span>Event Information</span><span class="r">oscbkk.com</span></a>
 <a class="lk" href="https://www.google.com/maps/search/?api=1&amp;query=Aces+Nightclub+Ambassador+Hotel+Sukhumvit+Soi+11+Bangkok" target="_blank" rel="noopener"><span>Getting there</span><span class="r"><em>Aces, Sukhumvit Soi 11</em>Ambassador Hotel · BTS Nana</span></a>
@@ -173,7 +176,8 @@ footer{text-align:center;padding-top:8px;font-family:Montserrat,Arial,sans-serif
 <img class="banner" src="assets/decades-banner.jpg" alt="Decades" loading="lazy">
 <div><h3 class="lbl">IN A NUTSHELL</h3><p class="about">Bangkok's only dedicated retro experience. Four decades - 70s, 80s, 90s, 00s - one dance floor. Last Saturday of every month at Aces Nightclub - Sukhumvit Soi 11.</p></div>
 <div class="next"><div class="cal"><small>SAT</small><strong>28</strong><small>NOV</small></div><div class="nx"><span class="k">NEXT EVENT</span><span class="t">Decades Bangkok</span><span class="w">Aces, Soi 11 · 10pm</span></div></div>
-<a class="cta" href="https://dub.sh/dcds1126" target="_blank" rel="noopener" data-ticket="Decades">GET TICKETS</a>
+<a class="cta" href="https://tickets.alpha11.co/events/alphaeleven/2507602" target="_blank" rel="noopener" data-ticket="Decades">GET TICKETS</a>
+<a class="fbbtn" href="https://www.facebook.com/events/1687876386032702" target="_blank" rel="noopener" data-track="FB Event Decades"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h-2.5A4.5 4.5 0 0 0 8 7.5V10H5.5v3.5H8V21h3.5v-7.5H14l.5-3.5h-3V8a1 1 0 0 1 1-1H15z"/></svg>JOIN ON FACEBOOK</a>
 <div class="links">
 <a class="lk" href="https://decadesbkk.com" target="_blank" rel="noopener"><span>Event Information</span><span class="r">decadesbkk.com</span></a>
 <a class="lk" href="https://www.google.com/maps/search/?api=1&amp;query=Aces+Nightclub+Ambassador+Hotel+Sukhumvit+Soi+11+Bangkok" target="_blank" rel="noopener"><span>Getting there</span><span class="r"><em>Aces, Sukhumvit Soi 11</em>Ambassador Hotel · BTS Nana</span></a>
@@ -193,7 +197,8 @@ footer{text-align:center;padding-top:8px;font-family:Montserrat,Arial,sans-serif
 <img class="banner" src="assets/soulfood-banner.jpg" alt="Soul Food" loading="lazy">
 <div><h3 class="lbl">IN A NUTSHELL</h3><p class="about">Bottomless lunch. Nothing but smooth classic R&amp;B made for those perfect singalongs. Last Saturday of every month at Abundance - Sukhumvit Soi 11.</p></div>
 <div class="next"><div class="cal"><small>SAT</small><strong>28</strong><small>NOV</small></div><div class="nx"><span class="k">NEXT EVENT</span><span class="t">Soul Food Day Party</span><span class="w">Abundance, Soi 11 · 2pm</span></div></div>
-<a class="cta" href="#" target="_blank" rel="noopener" data-ticket="Soul Food">GET TICKETS</a>
+<a class="cta" href="https://tickets.alpha11.co/events/alphaeleven/2526734" target="_blank" rel="noopener" data-ticket="Soul Food">GET TICKETS</a>
+<a class="fbbtn" href="https://www.facebook.com/events/1695159055311811/" target="_blank" rel="noopener" data-track="FB Event Soul Food"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h-2.5A4.5 4.5 0 0 0 8 7.5V10H5.5v3.5H8V21h3.5v-7.5H14l.5-3.5h-3V8a1 1 0 0 1 1-1H15z"/></svg>JOIN ON FACEBOOK</a>
 <div class="links">
 <a class="lk" href="https://bkkdayparties.com" target="_blank" rel="noopener"><span>Event Information</span><span class="r">bkkdayparties.com</span></a>
 <a class="lk" href="https://www.google.com/maps/search/?api=1&amp;query=Abundance+Prime+Building+Sukhumvit+Soi+11+Bangkok" target="_blank" rel="noopener"><span>Getting there</span><span class="r"><em>Abundance, Sukhumvit Soi 11</em>Prime Building · BTS Nana</span></a>
